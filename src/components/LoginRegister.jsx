@@ -26,6 +26,7 @@ function LoginRegister() {
         <input type='checkbox'/>
         <label htmlFor="">Remember Me</label>
         </div>
+        <p>Need Help?</p>
     </div>
 
     <div className="form-switch">
