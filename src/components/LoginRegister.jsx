@@ -1,6 +1,6 @@
 import React from 'react'
 import './LoginRegister.css'
-
+import netflix_spinner from '../assets/netflix_spinner.gif'
 function LoginRegister() {
   return (
    <div className="Login">
