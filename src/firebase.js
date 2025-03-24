@@ -17,3 +17,8 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
+//Add user to the database
+
+const signin = async() => {
+  await signInWithEmailAndPassword(auth, email, password);
+}
