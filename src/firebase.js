@@ -18,7 +18,6 @@ const auth = getAuth(app);
 
 const db = getFirestore(app);
 
-
 //Add user to the database
 
 const signin = async() => {
